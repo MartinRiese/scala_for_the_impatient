@@ -1,4 +1,4 @@
-var wordCounter = new scala.collection.immutable.TreeMap[String, Int]
+var wordCounter = scala.collection.immutable.SortedMap[String, Int]()
 
 val in = new java.util.Scanner(new java.io.File("paragraphs.txt"))
 while (in.hasNext()) {
